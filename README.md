@@ -21,3 +21,11 @@ The pipeline is structured into seven modular stages, ensuring transparent data 
 5. Summarization:	LLaMA 3.1 (8B Instruct)	Generates concise, structured summaries per topic and quarter.
 6. RAG Layer:	Hybrid Retrieval (BM25 + BGE)	Ensures all outputs are grounded in evidence via citation-linked, highly relevant context.
 7. Signal Output:	Google Sheets / Azure SQL	Export final metrics and signals for interactive dashboard visualization.
+
+# Contributors
+
+- Claire Pache – Team Coordination & Strategic Narrative
+- Alvaro Fernandez – Software Development
+- Lili Dopidze – Model Research & Benchmarking
+- Javier Igea – Industry Research & Benchmarking
+- Oleksii Prosiankin – User Interface & Visualization
